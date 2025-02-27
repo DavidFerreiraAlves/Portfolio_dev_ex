@@ -26,7 +26,7 @@
     --font-family-Asap: 'Asap', sans-serif;
     --title-lg: 800 56px/120% var(--font-family-Asap);
     --title-mg: 800 24px/120% var(--font-family-Asap);
-    --title-sm: 800 16/120% var(--font-family-Asap);
+    --title-sm: 800 16px/120% var(--font-family-Asap);
 
     --font-family-Iconsolata: 'Inconsolata', sans-serif;
     --subtitle: 400 20px/120% var(--font-family-Iconsolata);
@@ -36,3 +36,20 @@
     --text-sm: 400 14px/140% var(--font-family-Maven-pro);
 
 }   
+body{
+    background-color: black;
+}
+
+.container {
+    display: grid;
+}
+
+/*titles menu*/
+h1 {
+    color: var(--b-color-gray-500);
+    font: var(--title-lg);
+}
+
+.color-span {
+    color: var(--p-color-red);
+}

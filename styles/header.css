@@ -1,0 +1,51 @@
+header {
+    height: 400px;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-position: absolute;
+   background-size: cover;
+   justify-items: center;
+   padding: 120px 163px 183px;
+   text-wrap: stable;
+   text-align: center;
+}
+
+header > div {
+    justify-items: center;
+    padding: 0px 180px 120px;
+}
+
+header > div > p {
+    color: var(--b-color-gray-400);
+    font: var(--text-sm);
+    padding: 20px;
+}
+
+#avatar {
+    padding: 0px 0px 56px 0px;
+}
+
+#subtitle-p {
+    color: var(--b-color-gray-500);
+    font: var(--subtitle);
+}
+#div-icon {
+    display: flex;
+    
+    
+}
+
+.icons-header {
+    display:flex;
+    justify-content: space-between;
+   align-items: center;
+    margin: 0px 16px;
+    padding: 4px 16px;
+    background-color: var(--b-color-gray-300);
+    font: var(--text-md);
+    color: var(--b-color-gray-500);
+    border-radius: 40px;/*testar */
+}
+
+header > div > figure > figcaption {
+    padding-left: 8px;
+}
