@@ -1,0 +1,57 @@
+
+#div-title {
+    justify-items: center;    
+}
+
+.title-p {
+    font: var(--subtitle);
+    color: var(--p-color-red);
+    margin-bottom: 8px;
+}
+
+h2 {
+    font: var(--title-mg);
+    color: var(--b-color-gray-600);
+    margin-bottom: 56px;
+}
+
+#div-destaque {
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 0px;
+    row-gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main> div > figure {
+    background-color: var(--b-color-gray-300);
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px;
+   
+}
+
+main > div >  figure > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 306px;
+    height: 156px;
+    margin-bottom: 20px;
+}
+
+main > div > figure > figcaption > span {
+    font: var(--title-sm);
+    color: var(--b-color-gray-600);   
+}
+
+main > div > figure > figcaption > p {
+    font: var(--text-sm);
+    color: var(--b-color-gray-500);
+    margin-top: 8px;
+}

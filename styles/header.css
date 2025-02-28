@@ -1,10 +1,10 @@
 header {
-    height: 600px;
+    height: auto;
     background-image: url(../assets/images/Background_Intro.png);
     background-position: absolute;
    background-size: cover;
    justify-items: center;
-   padding: 120px 163px 183px;
+   padding: 120px 163px 13px;
    text-wrap: stable;
    text-align: center;
 }
@@ -29,15 +29,13 @@ header > div > p {
     font: var(--subtitle);
 }
 #div-icon {
-    display: flex;
-    
-    
+    display: flex; 
 }
 
 .icons-header {
     display:flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
     margin: 0px 16px;
     padding: 4px 16px;
     background-color: var(--b-color-gray-300);
