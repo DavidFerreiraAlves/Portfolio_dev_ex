@@ -16,7 +16,7 @@ aside > .container {
     margin-top: 88px;
 }
 
-h3 {
+aside > div > h3 {
     font: var(--title-mg);
     color: var(--b-color-gray-600);
     margin-bottom: 56px;

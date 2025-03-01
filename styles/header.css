@@ -1,7 +1,7 @@
 header {
     height: auto;
     background-image: url(../assets/images/Background_Intro.png);
-    background-position: absolute;
+    background-position:center;
    background-size: cover;
    justify-items: center;
    padding: 120px 163px 13px;
@@ -11,13 +11,14 @@ header {
 
 header > div {
     justify-items: center;
-    padding: 0px 180px 120px;
+    padding: 0px 180px 80px;
 }
 
 header > div > p {
     color: var(--b-color-gray-400);
     font: var(--text-sm);
     padding: 20px;
+    
 }
 
 #avatar {
