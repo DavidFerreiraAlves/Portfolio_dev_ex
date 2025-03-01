@@ -1,0 +1,52 @@
+.service {
+    background-color: var(--b-color-gray-100);
+    margin-top: 100px;
+    padding-bottom: 120px;
+}
+
+aside > .container {
+   justify-content: center;
+   text-align: center;
+}
+
+.aside-title-p {
+    font: var(--subtitle);
+    color: var(--p-color-red);
+    margin-bottom: 8px;
+    margin-top: 88px;
+}
+
+h3 {
+    font: var(--title-mg);
+    color: var(--b-color-gray-600);
+    margin-bottom: 56px;
+}
+
+#div-serv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 50%;
+    margin: 0 auto;   
+    
+}
+.fig-serv {
+    border: 2px solid var(--b-color-gray-500);
+    border-radius: 12px;
+   padding: 20px;
+   margin: 0px; 
+}
+
+.fig-serv > img {
+    margin-bottom: 10px;
+}
+
+.fig-serv > figcaption > span{
+    font: var(--title-sm);
+    color: var(--b-color-gray-600);
+}
+
+.fig-serv > figcaption > p {
+    font: var(--text-sm);
+    color: var(--b-color-gray-500);
+}
